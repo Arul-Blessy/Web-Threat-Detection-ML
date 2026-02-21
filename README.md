@@ -15,11 +15,13 @@ During the initial analysis, I examined the geographic distribution of traffic a
 
 ### 1. Traffic by Country
 This chart shows which countries are the primary sources of traffic in our logs.
-![Country Distribution](country_distribution.png)
+
+<img width="3694" height="2100" alt="country_distribution" src="https://github.com/user-attachments/assets/222c05b4-68b5-4a97-9889-9c86e8650ccf" />
 
 ### 2. Traffic Volume Distribution
 Analysis of `bytes_in` and `bytes_out` to identify patterns in data transfer.
-![Traffic Distribution](traffic_distribution.png)
+
+<img width="3017" height="1639" alt="traffic_distribution" src="https://github.com/user-attachments/assets/8387fdc8-4d3c-4f70-adc8-22066a8a953d" />
 
 ## 🤖 Machine Learning: Anomaly Detection
 I utilized the **Isolation Forest** algorithm to detect anomalies. This model is highly effective for cybersecurity because it identifies data points that are "few and different" (outliers).
@@ -27,11 +29,13 @@ I utilized the **Isolation Forest** algorithm to detect anomalies. This model is
 ### Anomaly Results
 - **Normal Traffic:** Green
 - **Suspicious Traffic:** Red
-![Anomaly Detection](anomaly_detection.png)
+
+<img width="2540" height="1639" alt="anomaly_detection" src="https://github.com/user-attachments/assets/10b963ef-f9ac-4f10-853f-17a0b13a6ada" />
 
 ## ⏰ Temporal Patterns
 I analyzed traffic based on the day of the week to see if suspicious activity spikes during specific times.
-![Activity by Day](activity_by_day.png)
+
+<img width="2552" height="1408" alt="activity_by_day" src="https://github.com/user-attachments/assets/795f92d7-61f4-4230-8cb9-9267f270f210" />
 
 ## 🔍 Key Findings
 1. **Anomaly Detection:** The AI model successfully flagged high-volume traffic patterns that deviate from standard web server interactions.
