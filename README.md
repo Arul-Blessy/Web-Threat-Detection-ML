@@ -45,7 +45,7 @@ I analyzed traffic based on the day of the week to see if suspicious activity sp
 ## 🚀 How to Run
 1. Clone this repository.
 2. Install dependencies: `pip install pandas matplotlib seaborn scikit-learn`
-3. Run the `analysis.ipynb` notebook in VS Code.
+3. Run the `Analysis.ipynb` notebook in VS Code.
 
 ---
 *Developed for the Unified Mentor Internship Program.*
